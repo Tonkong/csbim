@@ -1,0 +1,272 @@
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html, body, fieldset, img, iframe, abbr {
+    border: 0;
+}
+
+i, cite, em, var, address, dfn {
+    font-style: normal;
+}
+
+[hidefocus], summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+    font-size: 100%;
+}
+
+sup, sub {
+    font-size: 83%;
+}
+
+pre, code, kbd, samp {
+    font-family: inherit;
+}
+
+q:before, q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label, summary {
+    cursor: default;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+    font-weight: bold;
+}
+
+del, ins, u, s, a, a:hover {
+    text-decoration: none;
+}
+
+body, textarea, input, button, select, keygen, legend {
+    font: 12px/1.14 "Microsoft Yahei",arial, \5b8b\4f53;
+    color: #333;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+}
+
+a, a:hover {
+    color: #333;
+}
+.orange_yellow{
+    color: #ff8a18
+}
+.center1190{
+    width: 1190px;
+    margin: 0 auto;
+}
+/*function*/
+.clear {
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*header*/
+.header {
+    width: 100%
+}
+
+.header .top {
+    width: 100%;
+    background: #f7f7f7;
+    height: 36px;
+    line-height: 36px;
+}
+
+.header .top dl {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.header .top dl dt {
+    float: left;
+}
+
+.header .top dl dd {
+    float: right;
+    margin-left: 10px;
+}
+
+.header .logo{
+    float: left;
+    /*width: ;*/
+}
+/*.header*/
+.header i {
+    background: url(../images/header_icon.png) no-repeat top left;
+    float: left;
+    margin-right: 5px;
+}
+
+.header i.icon-Align-Horiz-Group {
+    background-position: 0 0;
+    width: 20px;
+    height: 14px;
+    margin-top: 12px;
+}
+
+.header i.icon-Man {
+    background-position: 0 -50px;
+    width: 17px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+.header i.icon-rss {
+    background-position: 0 -104px;
+    width: 15px;
+    height: 14px;
+    margin-top: 10px;
+}
+
+.header i.icon-sound {
+    background-position: 0 -154px;
+    width: 22px;
+    height: 15px;
+    margin-top: 10px;
+}
+.head{
+    padding: 15px 0 10px 0;
+}
+.head .logo{
+}
+.head .logo,.head .search,.head .info,.head dl,.head dd,.head dt{
+    float: left;
+}
+.head dl.search_con{
+    border: 3px solid #ff4200;
+    height: 36px;
+    line-height: 36px;
+}
+.head dl.search_con dt{
+    color: #666;
+    background: #f6f6f6;
+    height: 36px;
+    padding: 0 25px;
+}
+.head dl dd input{
+    border: none;
+    height: 36px;
+    padding: 0 5px;
+    width: 390px;
+}
+.head dl dd.search_button{
+    background: #ff4200;
+    height: 36px;
+    width: 115px;
+    color: #fff;
+    position: relative;
+}
+.head dl dd.search_button .search_font{
+    text-align: center;
+    font-size: 24px;
+    width: 115px;
+    float: left;
+}
+.head dl dd.search_button .search_white{
+    font-size:40px;
+    color: #fff;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -15px;
+    right: -7px;
+}
+.search {
+    margin:0 100px;
+}
+.search .search_tips{
+    width: 100%;
+}
+.search .search_tips dd a{
+    float: left;
+    margin: 8px;
+    margin-bottom: 0;
+}
+.search .search_tips a:hover{
+    color: #ff4200;
+}
+.search .search_tips .search_more{
+    float: right;
+    position: relative;
+    top: 5px;
+}
+.search .search_tips .search_more a{
+    float: right;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 20px;
+}
+.head .info{
+width: 130px;
+}
+.head .info dl{
+    clear: both;
+    margin: 3px 0;
+    text-align: center;
+    width: 100%;
+}
+.menu{
+    height: 56px;
+    background: #ff4200;
+    line-height: 56px;
+    font-size: 16px;
+    color: #fff;
+}
+.menu > div{
+    margin-left: 200px;
+}
+.menu dl dd a{
+    color: #ffffff;
+    float: left;
+    width: 145px;
+    text-align: center;
+}
+.menu dl dd a:hover{
+    background: #feb01a;
+}
