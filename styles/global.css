@@ -81,8 +81,11 @@ body {
     background: #fff;
 }
 
-a, a:hover {
-    color: #333;
+a {
+    color: #666;
+}
+a:hover{
+    color: #ff4200;
 }
 .orange_yellow{
     color: #ff8a18
@@ -199,6 +202,10 @@ a, a:hover {
     width: 115px;
     color: #fff;
     position: relative;
+}
+.head dl dd.search_button a{
+    color: #fff;
+
 }
 .head dl dd.search_button .search_font{
     text-align: center;

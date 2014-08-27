@@ -1,13 +1,15 @@
-.main{
+.main {
     margin-top: 10px;
 }
+
 /*nav*/
-.nav{
+.nav {
     float: left;
     width: 200px;
     border: 1px solid #ff4200;
 }
-.nav h1{
+
+.nav h1 {
     background: #ff4200;
     color: #fff;
     height: 42px;
@@ -15,46 +17,90 @@
     text-align: center;
     font-size: 16px;
 }
-.nav .nav_con{
+
+.nav .nav_con {
     padding: 15px;
 }
-.nav .nav_con dl{
+
+.nav .nav_con dl {
     border-bottom: 1px solid #c0e6fa;
     padding-left: 3px;
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
-.nav .nav_con dl dt{
-        font-size: 14px;
+
+.nav .nav_con dl dt {
+    font-size: 14px;
     height: 24px;
     /*padding-bottom: 3px;*/
 }
-.nav .nav_con dl dd{
+
+.nav .nav_con dl dd {
 
 }
-.nav .nav_con dl dd a{
+
+.nav .nav_con dl dd a {
 
 }
-.nav .nav_con dl dd a:hover{
+
+.nav .nav_con dl dd a:hover {
     color: #ff4200;
 }
+
 /*content*/
-.content{
+.content {
     margin: 0 10px;
     float: left;
 }
-.content .content_show{
+
+.content .content_show {
     background: #f5f5f5;
     border: 1px solid #ebebeb;
     padding: 10px;
 }
-.content_show .show_big{
-float: left;
+
+.content_show .show_big {
+    float: left;
 }
-.content_show .show_small{
-    margin:0 0 0 20px;
-float: left;
+.content_show .show_small {
+    margin: 0 0 0 20px;
+    float: left;
 }
-.content_show .show_small dd{
-    margin-bottom: 6px;
+.content_show .show_small dd {
+    border: 3px solid #fff;
+    /*z-index: 2;*/
+    position: relative;
+
+}
+.content_show .show_small dd img{
+    position: relative;
+    z-index: 2;
+}
+.content_show .show_small i{
+    top:35px;
+    left: -10px;
+    position: absolute;
+    z-index: 1;
+    color: #ff4200;
+    font-size: 24px;
+    visibility: hidden;
+}
+.content_show .show_small dd:hover {
+    border: 3px solid #ff4200;
+}
+.content_show .show_small dd:hover i{
+    visibility: visible;
+}
+.content_show .show_small dd {
+    /*margin-bottom: 2px;*/
+}
+.content .recommend{
+    margin-top: 10px;
+}
+.content .recommend h2{
+    color:#333 ;
+}
+.content .recommend_con{
+    border: 1px solid #ccc;
+    padding: 10px;
 }
