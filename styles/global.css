@@ -72,7 +72,7 @@ del, ins, u, s, a, a:hover {
 }
 
 body, textarea, input, button, select, keygen, legend {
-    font: 12px/1.14 "Microsoft Yahei",arial, \5b8b\4f53;
+    font: 12px/1.14 "Microsoft Yahei", arial, \5b8b\4f53;
     color: #333;
     outline: 0;
 }
@@ -84,16 +84,20 @@ body {
 a {
     color: #666;
 }
-a:hover{
+
+a:hover {
     color: #ff4200;
 }
-.orange_yellow{
+
+.orange_yellow {
     color: #ff8a18
 }
-.center1190{
+
+.center1190 {
     width: 1190px;
     margin: 0 auto;
 }
+
 /*function*/
 .clear {
     clear: both;
@@ -133,10 +137,11 @@ a:hover{
     margin-left: 10px;
 }
 
-.header .logo{
+.header .logo {
     float: left;
     /*width: ;*/
 }
+
 /*.header*/
 .header i {
     background: url(../images/header_icon.png) no-repeat top left;
@@ -171,77 +176,99 @@ a:hover{
     height: 15px;
     margin-top: 10px;
 }
-.head{
+
+.head {
     padding: 15px 0 10px 0;
 }
-.head .logo{
+
+.head .logo {
 }
-.head .logo,.head .search,.head .info,.head dl,.head dd,.head dt{
+
+.head .logo, .head .search, .head .info, .head dl, .head dd, .head dt {
     float: left;
 }
-.head dl.search_con{
+
+.head dl.search_con {
     border: 3px solid #ff4200;
     height: 36px;
-    line-height: 36px;
+    /*line-height: 36px;*/
 }
-.head dl.search_con dt{
+
+.head dl.search_con dt {
+    line-height: 36px;
+
     color: #666;
     background: #f6f6f6;
     height: 36px;
     padding: 0 25px;
 }
-.head dl dd input{
+.head dl.search_con dl dd{
+    line-height: 18px;
+}
+.head dl dd input {
     border: none;
     height: 36px;
     padding: 0 5px;
     width: 390px;
 }
-.head dl dd.search_button{
+
+.head dl dd.search_button {
     background: #ff4200;
     height: 36px;
     width: 115px;
     color: #fff;
     position: relative;
 }
-.head dl dd.search_button a{
+
+.head dl dd.search_button a {
     color: #fff;
 
 }
-.head dl dd.search_button .search_font{
+
+.head dl dd.search_button .search_font {
     text-align: center;
     font-size: 24px;
     width: 115px;
     float: left;
 }
-.head dl dd.search_button .search_white{
-    font-size:40px;
+
+.head dl dd.search_button .search_white {
+    font-size: 40px;
     color: #fff;
     position: absolute;
     margin: 0;
     padding: 0;
     top: -15px;
     right: -7px;
+    line-height: 36px;
+
 }
+
 .search {
-    margin:0 100px;
+    margin: 0 100px;
 }
-.search .search_tips{
+
+.search .search_tips {
     width: 100%;
 }
-.search .search_tips dd a{
+
+.search .search_tips dd a {
     float: left;
     margin: 8px;
     margin-bottom: 0;
 }
-.search .search_tips a:hover{
+
+.search .search_tips a:hover {
     color: #ff4200;
 }
-.search .search_tips .search_more{
+
+.search .search_tips .search_more {
     float: right;
     position: relative;
     top: 5px;
 }
-.search .search_tips .search_more a{
+
+.search .search_tips .search_more a {
     float: right;
     width: 40px;
     height: 20px;
@@ -249,31 +276,154 @@ a:hover{
     text-align: center;
     line-height: 20px;
 }
-.head .info{
-width: 130px;
+
+.head .info {
+    width: 130px;
 }
-.head .info dl{
+
+.head .info dl {
     clear: both;
     margin: 3px 0;
     text-align: center;
     width: 100%;
 }
-.menu{
+
+.menu {
     height: 56px;
     background: #ff4200;
     line-height: 56px;
     font-size: 16px;
     color: #fff;
 }
-.menu > div{
+
+.menu > div {
     margin-left: 200px;
 }
-.menu dl dd a{
+
+.menu dl dd a {
     color: #ffffff;
     float: left;
     width: 145px;
     text-align: center;
 }
-.menu dl dd a:hover{
+
+.menu dl dd a:hover {
     background: #feb01a;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .friendlylink dl {
+    border-top: 2px solid #687d90;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.footer .friendlylink dl dd {
+    float: left;
+    margin: 20px 15px 0 15px;
+
+}
+.footer .about{
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer .about .about_us{
+    float: left;
+    margin-left:100px;
+    margin-right:150px;
+}
+.footer dt{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    height: 28px;
+}
+.footer .about dl dd{
+    height: 24px;
+    line-height: 24px;
+}
+.footer .follow_us{
+    float: left;
+}
+.footer i{
+    background-image: url("../images/footer_icon.png");
+}
+.footer .about_us i{
+    height: 42px;
+    width: 42px;
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+}
+.footer .follow_us i{
+    height: 42px;
+    width: 42px;
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    background-position: 0 -42px;
+}
+.footer form i{
+    height: 52px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 12px;
+    background-position: 0 -84px;
+}
+.footer .about .two-dimension{
+    float: left;
+
+}
+.footer .about .two-dimension{
+    width: 431px;
+    height: 143px;
+    float: right;
+    margin-right: 40px;
+}
+.footer .feedback{
+    margin-top: 20px;
+    background-color: #7f7f7f;
+    height: 150px;
+    text-align: center;
+}
+.footer .feedback form{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+}
+.footer .feedback form input[type=text]{
+    color: #ccc;
+    font-size: 19px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 400px;
+
+}
+.footer .feedback form input[type=submit]{
+    width: 123px;
+    height: 47px;
+    background-color: none;
+    border: none;
+    position: relative;
+   top: 17px;
+    background: url("../images/feed_btn.png") 0 0 no-repeat;
+    cursor: pointer;
+
+}
+.footer .feedback form input[type=submit]:hover{
+    background: url("../images/feed_btn.png") 0 -51px no-repeat;
+
 }

@@ -1,7 +1,13 @@
 .main {
     margin-top: 10px;
 }
-
+.main:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
 /*nav*/
 .nav {
     float: left;
@@ -23,18 +29,20 @@
 }
 
 .nav .nav_con dl {
-    border-bottom: 1px solid #c0e6fa;
+    border-bottom: 1px solid #ddd;
     padding-left: 3px;
     padding-bottom: 8px;
     margin-bottom: 8px;
+    background: url("../images/arrow.png") right 16px no-repeat;
 }
 
 .nav .nav_con dl dt {
     font-size: 14px;
     height: 24px;
     /*padding-bottom: 3px;*/
+    position: relative;
+    padding-left: 25px;
 }
-
 .nav .nav_con dl dd {
 
 }
@@ -46,7 +54,26 @@
 .nav .nav_con dl dd a:hover {
     color: #ff4200;
 }
-
+.nav dt i{
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    background: url("../images/nav_icon.png") 0 0 no-repeat;
+    left: 0px;
+}
+.nav dt i.nav-04{ background-position: 0 0; width: 23px; height: 25px; }
+.nav dt i.nav-05{ background-position: 0 -35px; width: 17px; height: 20px; }
+.nav dt i.nav-06{ background-position: 0 -65px; width: 21px; height: 18px; }
+.nav dt i.nav-07{ background-position: 0 -93px; width: 16px; height: 16px; }
+.nav dt i.nav-08{ background-position: 0 -119px; width: 13px; height: 20px; }
+.nav dt i.nav-09{ background-position: 0 -149px; width: 21px; height: 22px; }
+.nav dt i.nav-10{ background-position: 0 -181px; width: 24px; height: 27px; }
+.nav dt i.nav-11{ background-position: 0 -218px; width: 20px; height: 23px; }
+.nav dt i.nav-12{ background-position: 0 -251px; width: 26px; height: 29px; }
+.nav dt i.nav-Home{ background-position: 0 -290px; width: 16px; height: 14px; }
+.nav dt i.nav-Pichet{ background-position: 0 -314px; width: 17px; height: 22px; }
+.nav dt i.nav-arrow{ background-position: 0 -346px; width: 5px; height: 6px; }
+.nav dt i.nav-furniture{ background-position: 0 -362px; width: 20px; height: 13px; }
 /*content*/
 .content {
     margin: 0 10px;
@@ -97,10 +124,323 @@
 .content .recommend{
     margin-top: 10px;
 }
+.content .recommend i{
+    background: url("../images/recomment.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 29px;
+    margin-top: -15px;
+    position: relative;
+    top: 3px;
+    left: -5px;
+    margin-left: 5px;
+}
 .content .recommend h2{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 5px;
     color:#333 ;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
 }
 .content .recommend_con{
     border: 1px solid #ccc;
-    padding: 10px;
+    /*padding: 20px;*/
+}
+.content .recommend_con:after{
+    content: "";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear:both;
+}
+.content .recommend_con dl{
+    overflow: hidden;
+    border-bottom:1px solid #efefef ;
+    margin: 0 20px;
+}
+.content .recommend_con dl dd{
+    margin:20px 0 10px 34px ;
+    float: left;
+}
+.content .recommend_con dl dd:first-child{
+    margin-left: 0;
+}
+.content .recommend_con dl dd a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.content .recommend_con dl dd a img{
+    height: 184px;
+    width: 204px;
+}
+.content .recommend_con dl dd a span{
+    display: block;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+}
+/*右侧蓝*/
+.side_r{
+    float: left;
+}
+.side_r_cy{
+    border: 1px solid #ddd;
+    width: 244px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.side_r_cy dl{
+    overflow: hidden;
+}
+.side_r_cy dl dd{
+    float: left;
+}
+.side_r .side_top_icon{
+    border: none;
+}
+
+.side_r .side_top_icon dl dd{
+    width: 122px;
+    text-align: center;
+}
+.side_r .side_top_icon dl dd h3{
+    font-size: 18px;
+    font-weight: normal;
+    height: 24px;
+    line-height: 24px;
+}
+.side_r .side_top_icon dl dd img{
+    width: 76px;
+    overflow: hidden;
+}
+.side_r .side_top_icon dl dd:first-child img{
+
+}
+.side_r .side_r_tab .tab{
+    width: 121px;
+    height: 44px;
+    color: #333;
+    background-color: #fff;
+    line-height: 44px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid #dfdfdf;
+}
+.side_r .side_r_tab .tab:first-child{
+    border-right: 1px solid #dfdfdf;
+}
+.side_r .side_r_tab .tab_hover{
+    color: #fff;
+    background-color: #ff4200;
+    border-bottom: none;
+}
+.side_r .tab i{
+    background: url("../images/side_icon.png") -24px -24px no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 7px;
+}
+.side_r .tab:hover{
+    background: #ff4200;
+    color: #fff;
+}
+.side_r .tab:hover i{
+    background: url("../images/side_icon.png") -24px 0px no-repeat;
+
+}
+.side_r .tab:first-child:hover{
+    background: #fff;
+    color: #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+.side_r .tab:first-child:hover i{
+    background: url("../images/side_icon.png") 0 -24px no-repeat;
+
+}
+.side_r .tab:first-child i{
+    background: url("../images/side_icon.png") 0 0 no-repeat;
+
+}
+.side_r_tab .tab_con dl{
+    margin-top: 10px;
+
+}
+.side_r_tab .tab_con dl dd{
+    margin:0 5px;
+}
+.side_r_tab .tab_con dl dd img{
+    width: 112px;
+    height: 76px;
+}
+.side_r_tab .tab_con dl dd span{
+    display: block;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.side_r .side_title{
+    color: #fff;
+    background-color: #ff4200;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+.side_r .side_title i{
+    background: url("../images/side_icon.png") 0 0 no-repeat;
+}
+.side_r .hot_desinger .side_title i{
+    background-position: 0 -45px;
+    height: 24px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.side_r .hot_company .side_title i{
+    background-position: 0 -70px;
+    height: 24px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.side_r .bidding .side_title i{
+    background-position: 0 -94px;
+    height: 24px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.side_r .hot_desinger{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.side_r .hot_desinger dl{
+    float: left;
+    overflow: hidden;
+    border-bottom: 1px solid #efefef;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 3px;
+}
+.side_r .hot_desinger dl dt{
+    float: left;
+    margin-right: 10px;
+}
+.side_r .hot_desinger dl dt img{
+    width: 75px;
+    height: 85px;
+}
+.side_r .hot_desinger dl dd{
+    width: 120px;
+    float: left;
+}
+.side_r .hot_desinger dl dd p{
+    height: 18px;
+    line-height: 18px;
+}
+.side_r .hot_desinger dl dd p.name{
+    font-weight: bold;
+}
+.side_r .hot_desinger dl dd p.goodat{
+    /*width: ;*/
+}
+.side_r .hot_desinger dl dd p.goodat a{
+    margin: 0 3px 0 0;
+    color: #007fc3;
+
+}
+
+.side_r .hot_company .infor{
+    background-color: #f5f5f5;
+    padding: 10px 0;
+}
+.side_r .hot_company .infor dl dt{
+    float: left;
+}
+.side_r .hot_company .infor dl dd{
+    color: #666;
+    width: 140px;
+    float: left;
+    line-height: 22px;
+}
+.side_r .hot_company .infor .logo{
+    width: 70px;
+    height: 67px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.side_r .hot_company .infor .logo img{
+    width: 70px;
+    height: 67px;
+}
+.side_r .hot_company .infor .name a{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #007fc3;
+}
+.side_r .hot_company .infor .focus{
+    float: right;
+    overflow: hidden;
+    padding: 1px;
+    /*width: 54px;*/
+    background-color:#ffa00a ;
+}
+.side_r .hot_company .infor .focus a{
+    display: block;
+    text-align: center;
+    padding: 0 8px;
+    float: right;
+    color: #fff;
+    background-color: #ffa00a;
+    border: 1px solid #ffb33b;
+}
+.side_r .hot_company .infor .focus a strong{
+    font-weight: bold;
+    font-size: 16px;
+}
+.side_r .hot_company .show_img{
+    margin: 5px 4px;
+}
+.side_r .hot_company .show_img img{
+    width: 55px;
+    height: 60px;
+    margin-left:1px;
+}
+.side_r .hot_company .show_img img:first-child{
+    /*margin-left: 0;*/
+}
+.side_r .bidding dl{
+    margin: 15px 10px 0 10px;
+}
+.side_r .bidding dl dd{
+    height: 24px;
+    height: 24px;
+    position: relative;
+    width: 100%;
+
+}
+.side_r .bidding dl dd i{
+    font-size: 28px;
+    line-height: 3px;
+    height: 1px;
+    position: relative;
+    top: 5px;
+    margin-right: 2px;
+}
+.side_r .bidding dl dd span{
+    position: absolute;
+    right: 0;
 }
