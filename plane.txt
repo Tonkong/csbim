@@ -1,0 +1,15 @@
+header
+
+footer
+
+pagination
+
+list
+
+side_r
+
+nav
+
+side_r title
+
+web_site
