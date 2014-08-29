@@ -1,13 +1,4 @@
-.main {
-    margin-top: 10px;
-}
-.main:after{
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
+
 /*nav*/
 .nav {
     float: left;
@@ -406,4 +397,27 @@
 .side_r .bidding dl dd span{
     position: absolute;
     right: 0;
+}
+.content .recommend{
+    margin-top: 10px;
+}
+.content .recommend i{
+    background: url("../images/recomment.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 29px;
+    margin-top: -15px;
+    position: relative;
+    top: 3px;
+    left: -5px;
+    margin-left: 5px;
+}
+.content .recommend h2{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 5px;
+    color:#333 ;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
 }

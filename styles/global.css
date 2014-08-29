@@ -92,23 +92,24 @@ a:hover {
 .orange_yellow {
     color: #ff8a18
 }
-
-.center1190 {
-    width: 1190px;
-    margin: 0 auto;
-}
-
-/*function*/
 .clear {
     clear: both;
 }
-
 .clear:after {
     content: "";
     display: block;
     height: 0;
     visibility: hidden;
     clear: both;
+}
+/*\*/
+
+.center1190 {
+    width: 1190px;
+    margin: 0 auto;
+}
+.con926{
+    width: 926px;
 }
 
 /*header*/
@@ -310,6 +311,21 @@ a:hover {
     background: #feb01a;
 }
 
+.main:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.content {
+    margin: 0 10px;
+    float: left;
+}
+
+.main {
+    margin-top: 10px;
+}
 .footer {
     margin-top: 20px;
     margin-bottom: 130px;

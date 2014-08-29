@@ -1,65 +1,39 @@
 
 /*content*/
-.content {
-    margin: 0 10px;
-    float: left;
-}
+
 .content .p_list{
-    margin-top: 10px;
-}
-.content .p_list i{
-    background: url("../images/recomment.png") 0 0 no-repeat;
-    display: inline-block;
-    width: 20px;
-    height: 29px;
-    margin-top: -15px;
-    position: relative;
-    top: 3px;
-    left: -5px;
-    margin-left: 5px;
-}
-.content .p_list h2{
-    margin-bottom: 5px;
-    margin-top: 15px;
-    padding-left: 5px;
-    color:#333 ;
-    font-size: 16px;
-    height: 24px;
-    line-height: 24px;
-}
-.content .p_list_con{
     border: 1px solid #ccc;
     /*padding: 20px;*/
 }
-.content .p_list_con:after{
+.content .p_list:after{
     content: "";
     visibility: hidden;
     height: 0;
     display: block;
     clear:both;
 }
-.content .p_list_con dl{
+.content .p_list dl{
     overflow: hidden;
     border-bottom:1px solid #efefef ;
     margin: 0 20px;
 }
-.content .p_list_con dl dd{
+.content .p_list dl dd{
     margin:20px 0 10px 34px ;
     float: left;
 }
-.content .p_list_con dl dd:first-child{
+.content .p_list dl dd:first-child{
     margin-left: 0;
 }
-.content .p_list_con dl dd a{
+.content .p_list dl dd a{
     display: block;
     text-align: center;
     font-size: 14px;
 }
-.content .p_list_con dl dd a img{
+.content .p_list dl dd a img{
     height: 184px;
     width: 204px;
 }
-.content .p_list_con dl dd a span{
+.content .p_list dl dd a span{
     display: block;
     text-align: center;
     height: 24px;
