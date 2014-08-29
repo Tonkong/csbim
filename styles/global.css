@@ -295,8 +295,7 @@ a:hover {
     font-size: 16px;
     color: #fff;
 }
-
-.menu > div {
+.menu > div > dl{
     margin-left: 200px;
 }
 
@@ -312,6 +311,8 @@ a:hover {
 }
 
 .footer {
+    margin-top: 20px;
+    margin-bottom: 130px;
     width: 100%;
 }
 
@@ -328,7 +329,7 @@ a:hover {
 
 }
 .footer .about{
-    background-color: #f5f5f5;
+    background-color: #F0F0F0;
     padding: 40px 0;
     overflow: hidden;
 }
@@ -368,15 +369,7 @@ a:hover {
     margin-left: -50px;
     background-position: 0 -42px;
 }
-.footer form i{
-    height: 52px;
-    width: 70px;
-    display: block;
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 12px;
-    background-position: 0 -84px;
-}
+
 .footer .about .two-dimension{
     float: left;
 
@@ -399,9 +392,19 @@ a:hover {
     font-size: 19px;
     line-height: 24px;
     letter-spacing: 2px;
+    padding-top: 50px;
 
 }
+.footer form i{
+    height: 52px;
+    width: 70px;
+    display: block;
+    background-position: 0 -84px;
+    float: left;
+    margin: -8px 0 0 120px;
+}
 .footer .feedback form input[type=text]{
+    float: left;
     color: #ccc;
     font-size: 19px;
     height: 24px;
@@ -409,16 +412,23 @@ a:hover {
     border-radius: 5px;
     padding: 10px;
     border: none;
-    width: 400px;
-
+    width: 360px;
+margin-right: 20px;
+}
+.footer .feedback form span{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
 }
 .footer .feedback form input[type=submit]{
+    float: left;
+    margin-top: -2px;
     width: 123px;
     height: 47px;
     background-color: none;
     border: none;
     position: relative;
-   top: 17px;
     background: url("../images/feed_btn.png") 0 0 no-repeat;
     cursor: pointer;
 

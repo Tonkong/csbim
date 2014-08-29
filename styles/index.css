@@ -144,44 +144,7 @@
     height: 24px;
     line-height: 24px;
 }
-.content .recommend_con{
-    border: 1px solid #ccc;
-    /*padding: 20px;*/
-}
-.content .recommend_con:after{
-    content: "";
-    visibility: hidden;
-    height: 0;
-    display: block;
-    clear:both;
-}
-.content .recommend_con dl{
-    overflow: hidden;
-    border-bottom:1px solid #efefef ;
-    margin: 0 20px;
-}
-.content .recommend_con dl dd{
-    margin:20px 0 10px 34px ;
-    float: left;
-}
-.content .recommend_con dl dd:first-child{
-    margin-left: 0;
-}
-.content .recommend_con dl dd a{
-    display: block;
-    text-align: center;
-    font-size: 14px;
-}
-.content .recommend_con dl dd a img{
-    height: 184px;
-    width: 204px;
-}
-.content .recommend_con dl dd a span{
-    display: block;
-    text-align: center;
-    height: 24px;
-    line-height: 24px;
-}
+
 /*右侧蓝*/
 .side_r{
     float: left;
