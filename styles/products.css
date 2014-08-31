@@ -77,11 +77,10 @@
 }
 
 .cate .search_screening select {
-    height: 28px;
-    line-height: 28px;
+    padding: 3px 1px;
     min-width: 100px;
     position: relative;
-    top: 3px\9;
+    margin-right: 5px;
 }
 .cate .search_screening .search_input{
     position: relative;
