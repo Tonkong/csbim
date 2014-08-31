@@ -260,3 +260,63 @@
     position: absolute;
     right: 0;
 }
+.side_r .hot dl{
+    margin:10px;
+    margin-bottom: 20px;
+}
+.side_r .hot dl dd{
+    float: left;
+    margin:10px 10px 0 0 ;
+}
+.side_r .hot_search h3.side_title i{
+    height: 24px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    background-position: 0 -123px;
+}
+.side_r .hot_download{
+    margin-top: 20px;
+}
+.side_r .hot_download h3.side_title i{
+    height: 24px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    background-position: 0 -123px;
+}
+.side_r .hot_search dl dd a{
+    background-color: #eee;
+    padding:0 2px;
+}
+.side_r .hot_download dl dd{
+    text-align: center;
+    margin-left:10px ;
+    font-size: 14px;
+}
+.side_r .hot_download dl dd span{
+    line-height: 24px;
+}
+.side_r .nav{
+    float: none;
+    margin-right: 0;
+    width: 244px;
+}
+.side_r .nav .nav_con{
+    background: #f7f7f7;
+}
+.side_r .nav .nav_con .nav_con_second{
+    margin-left: -267px;
+}
+.side_r .nav .nav_con > dl {
+    padding: 0 15px 20px 55px;
+    padding-bottom: 8px;
+    background: url("../images/arrow_x.png") 30px 38px no-repeat;
+}
+.side_r .nav .nav_con > dl:hover {
+    background: url("../images/arrow_x_white.png") 30px 38px no-repeat;
+    background-color:#feb01a ;
+
+}

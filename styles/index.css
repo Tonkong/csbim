@@ -4,6 +4,7 @@
     float: left;
     width: 200px;
     border: 1px solid #ff4200;
+    margin-right: 10px;
 }
 
 .nav h1 {
@@ -19,20 +20,7 @@
     /*padding: 15px;*/
     position: relative;
 }
-.nav .nav_con .nav_con_second{
-    position: absolute;
-    z-index: 9;
-    left:0;
-    margin-left: 200px;
-    border: 1px solid #feb01a;
-    width: 100%;
-}
-.nav_con_second dl dt{
-    /*float: left;*/
-}
-.nav_con_second dl dd{
-    float: left;
-}
+
 .nav .nav_con > dl {
     padding: 0 15px 20px 15px;
     padding-bottom: 8px;
@@ -88,11 +76,34 @@
 .nav dt i.nav-Pichet{ background-position: 0 -314px; width: 17px; height: 22px; }
 .nav dt i.nav-arrow{ background-position: 0 -346px; width: 5px; height: 6px; }
 .nav dt i.nav-furniture{ background-position: 0 -362px; width: 20px; height: 13px; }
-/*content*/
-.content {
-    margin: 0 10px;
+/*nav-second*/
+.nav .nav_con .nav_con_second{
+    position: absolute;
+    z-index: 9;
+    left:0;
+    margin-left: 200px;
+    border: 1px solid #feb01a;
+    width: 235px;
+    background: #fff;
+    padding: 15px;
+
+}
+.nav_con_second > dl dt{
+    font-size: 14px;
+    font-weight: bold;
+    background: url("../images/nav_second_bg.jpg") 0 bottom no-repeat;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    /*float: left;*/
+}
+.nav_con_second > dl dd{
+    padding-right: 5px;
+    margin: 5px 5px 5px 0;
+    border-right: 1px solid #eee;
+
     float: left;
 }
+/*content*/
 
 .content .content_show {
     background: #f5f5f5;
@@ -161,6 +172,7 @@
 
 /*右侧蓝*/
 .side_r{
+    margin-left: 10px;
     float: left;
 }
 .side_r_cy{

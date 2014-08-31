@@ -1,41 +1,326 @@
-
 /*content*/
+.cate > dl {
+    overflow: hidden;
+    padding-left: 85px;
+    font-size: 14px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    height: 37px;
+    line-height: 37px;
+    position: relative;
+    border-top: none;
+}
 
-.content .p_list{
+.cate > dl dt {
+    position: absolute;
+    width: 70px;
+    text-align: right;
+    left: 15px;
+    float: left;
+    margin-right: 40px;
+    height: 100%;
+}
+
+.cate > dl dd {
+    float: left;
+
+}
+
+.cate > dl dd a {
+    padding: 0px 5px;
+    border: 2px solid transparent;
+}
+
+.cate > dl dd:hover a {
+    border: 2px solid #feb529;
+}
+
+.cate dl.related {
+    border-top: 1px solid #e8e8e8;
+    background: -webkit-linear-gradient(top, #fff, #f5f5f5);
+    background: -moz-linear-gradient(top, #fff, #f5f5f5);
+    overflow: hidden;
+    height: 100%;
+}
+
+.cate .check > dl {
+    padding-left: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.cate .check dl dd {
+    float: left;
+}
+
+.cate .check dl dd input {
+    position: relative;
+    top: 2px;
+    margin: 0 30px 0 5px;
+}
+
+.cate .search_screening {
+    padding-left: 15px;
+    border: 1px solid #eaeaea;
+    background: #f3f3f3;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 10px;
+    color: #666;
+    position: relative;
+}
+
+.cate .search_screening h4 {
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.cate .search_screening select {
+    height: 28px;
+    min-width: 100px;
+}
+
+.cate .search_screening input {
+    height: 26px;
+    padding: 0 3px;
     border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 170px;
+}
+
+.cate .search_screening .list_mode {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+.cate .search_screening .list_mode dd {
+    width: 27px;
+    height: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.cate .search_screening .list_mode dd {
+    background: url("../images/icon.png") 0 0 no-repeat;
+}
+
+.cate .search_screening .list_mode dd.mode_img {
+    background-position: 0 -50px;
+
+}
+
+.cate .search_screening .list_mode dd.mode_img:hover {
+    background-position: 0 -24px;
+}
+
+.cate .search_screening .list_mode dd.mode_info {
+    background-position: -30px -49px;
+
+}
+
+.cate .search_screening .list_mode dd.mode_info:hover {
+    background-position: -30px -24px;
+}
+
+.cate .search_screening .list_mode dd.img_hover {
+    background-position: 0 -24px;
+}
+
+.cate .search_screening .list_mode dd.info_hover {
+    background-position: -30px -24px;
+}
+
+.cate .border_bottom {
+    height: 2px;
+    background: #feb529;
+    width: 100%;
+}
+
+/*产品列表*/
+.content .p_list {
     /*padding: 20px;*/
 }
-.content .p_list:after{
+
+.content .p_list:after {
     content: "";
     visibility: hidden;
     height: 0;
     display: block;
-    clear:both;
+    clear: both;
 }
-.content .p_list dl{
+
+.content .p_list > dl {
     overflow: hidden;
-    border-bottom:1px solid #efefef ;
+    border-bottom: 1px solid #efefef;
     margin: 0 20px;
 }
-.content .p_list dl dd{
-    margin:20px 0 10px 34px ;
+
+.content .list_dl_margin_no dl {
+    margin: 0;
+}
+
+.content .p_list > dl dd {
+    margin: 20px 0 10px 34px;
     float: left;
 }
-.content .p_list dl dd:first-child{
+
+.content .p_list > dl dd:first-child {
     margin-left: 0;
 }
-.content .p_list dl dd a{
+
+.content .p_list > dl dd a {
     display: block;
     text-align: center;
     font-size: 14px;
 }
-.content .p_list dl dd a img{
+
+.content .p_list > dl dd a img {
     height: 184px;
     width: 204px;
 }
-.content .p_list dl dd a span{
+
+.content .p_list > dl dd a span {
     display: block;
     text-align: center;
     height: 24px;
     line-height: 24px;
+}
+
+.list_info {
+        padding: 15px 0;
+    border-bottom: 1px solid #ececec;
+}
+.list_info:after{
+    content: "";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.list_info .p_img {
+    float: left;
+    margin-right: 20px;
+}
+
+.list_info .p_img img {
+    width: 205px;
+    height: 185px;
+}
+
+.list_info .introduce {
+    width: 700px;
+    float: left;
+}
+
+.list_info .introduce dl.title {
+    position: relative;
+    padding: 8px 15px;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+}
+
+.list_info .introduce dl.title dt {
+    font-size: 17px;
+    font-weight: bold;
+    color: #656565;
+    float: left;
+    margin-right: 20px;
+}
+
+.list_info .introduce dl.title dd {
+    position: relative;
+    top: 5px;
+    float: left;
+}
+.list_info .introduce dl.title dd i{
+    position: relative;
+    top: -5px;
+    background: url("../images/header_icon.png") 0 -50px no-repeat;
+    width: 17px;
+    height: 18px;
+    float: left;
+    margin-right: 5px;
+}
+
+.list_info .introduce dl.title dd.times {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.list_info .introduce dl.parameter {
+    overflow: hidden;
+    padding:7px 15px;
+}
+
+.list_info .introduce dl.parameter dd {
+    margin-right: 20px;
+    float: left;
+}
+
+.list_info .introduce .bottom {
+    position: relative;
+}
+
+.list_info .introduce .bottom dl.tag {
+    padding: 15px;
+    width: 330px;
+    float: left;
+}
+
+.list_info .introduce .bottom dl.tag dt {
+    margin:10px 0 20px 0;
+    font-size: 14px;
+
+}
+.list_info .introduce .bottom dl.tag dt i{
+        background: url("../images/icon.png") 0 -122px no-repeat;
+    float: left;
+    width: 18px;
+    height: 25px;
+}
+.list_info .introduce .bottom dl.tag dd {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.list_info .introduce .bottom dl.tag dd a {
+    background-color: #f3f3f3;
+    padding: 0 3px;
+    color: #999898;
+}
+.list_info .introduce .bottom dl.tag dd a:hover{
+    color: #ff4200;
+}
+.list_info .introduce .bottom .price {
+    margin-top: 10px;
+    float: left;
+}
+.list_info .introduce .bottom .price i{
+    font-style: italic;
+}
+.list_info .introduce .bottom .price span {
+    font-size: 21px;
+}
+
+.list_info .introduce .bottom .download {
+    background: url("../images/icon.png") -17px 9px no-repeat;
+    background-color: #ff4200;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    border-radius: 5px;
+}
+.list_info .introduce .bottom .download a{
+    text-align: right;
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    padding:0 20px 0 10px;
+    font-size: 18px;
+    color: #fff;
+    float: left;
 }
