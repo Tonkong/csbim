@@ -25,17 +25,17 @@
     padding: 0 15px 20px 15px;
     padding-bottom: 8px;
     background:url("../images/arrow.png") 177px 38px no-repeat;
+    position: relative;
 }
 .nav .nav_con > dl:hover{
     background:url("../images/arrow_while.png") 177px 38px no-repeat;
-
     background-color:#feb01a ;
 
 }
-.nav .nav_con > dl:hover a{
+.nav .nav_con > dl:hover a.first{
     color: #fff;
 }
-.nav .nav_con > dl dt {
+.nav .nav_con > dl > dt {
     border-top: 1px solid #ddd;
     padding-top: 15px;
     font-size: 14px;
@@ -45,15 +45,7 @@
     padding-left: 25px;
 }
 
-.nav .nav_con > dl dd {
-
-}
-
-.nav .nav_con > dl dd a {
-
-}
-
-.nav .nav_con > dl dd a:hover {
+.nav .nav_con > dl > dd > a:hover {
     color: #ff4200;
 }
 .nav dt i{
@@ -86,9 +78,13 @@
     width: 235px;
     background: #fff;
     padding: 15px;
-
+    top: 0;
 }
-.nav_con_second > dl dt{
+.nav_con_second > dl{
+    overflow: hidden;
+    margin-bottom:20px ;
+}
+.nav_con_second > dl > dt{
     font-size: 14px;
     font-weight: bold;
     background: url("../images/nav_second_bg.jpg") 0 bottom no-repeat;
@@ -96,7 +92,7 @@
     margin-bottom: 5px;
     /*float: left;*/
 }
-.nav_con_second > dl dd{
+.nav_con_second > dl > dd{
     padding-right: 5px;
     margin: 5px 5px 5px 0;
     border-right: 1px solid #eee;

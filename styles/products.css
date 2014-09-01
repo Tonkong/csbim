@@ -341,3 +341,10 @@
     color: #fff;
     float: left;
 }
+/*详情页*/
+.detail .detail_top .detail_show{
+    float: left;
+}
+.detail .detail_top .detail_info{
+
+}
