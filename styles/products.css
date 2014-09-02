@@ -342,9 +342,74 @@
     float: left;
 }
 /*详情页*/
+/*icon*/
+.detail_top i, .detail_con i,.detail_detail_intro i{
+    background: url("../images/detail_icon.png") no-repeat top left;
+}
+i.detailFavorite{ background-position: 0 0; width: 30px; height: 22px; }
+i.detailbig_next{ background-position: 0 -42px; width: 37px; height: 48px; }
+i.detailbig_next_hover{ background-position: 0 -110px; width: 43px; height: 45px; }
+i.detailbig_prev{ background-position: 0 -175px; width: 37px; height: 48px; }
+i.detailbig_prev_hover{ background-position: 0 -243px; width: 43px; height: 45px; }
+i.detailcomment{ background-position: 0 -308px; width: 16px; height: 13px; }
+i.detaildown_load{ background-position: 0 -341px; width: 18px; height: 11px; }
+i.detailevaluation{ background-position: 0 -372px; width: 19px; height: 14px; }
+i.detaileye{ background-position: 0 -406px; width: 18px; height: 11px; }
+i.detailfill{ background-position: 0 -437px; width: 26px; height: 24px; }
+i.detailid_code{ background-position: 0 -481px; width: 20px; height: 16px; }
+i.detailmodel{ background-position: 0 -517px; width: 18px; height: 20px; }
+i.detailparameter{ background-position: 0 -557px; width: 13px; height: 18px; }
+i.detailpay_card{ background-position: 0 -595px; width: 19px; height: 14px; }
+i.detailreturn_credit{ background-position: 0 -629px; width: 9px; height: 12px; }
+i.detailshare{ background-position: 0 -661px; width: 34px; height: 23px; }
+i.detailsmall_next{ background-position: 0 -704px; width: 40px; height: 58px; }
+i.detailsmall_next_hover{ background-position: 0 -782px; width: 28px; height: 30px; }
+i.detailsmall_prev{ background-position: 0 -832px; width: 40px; height: 58px; }
+i.detailsmall_prev_hover{ background-position: 0 -910px; width: 28px; height: 30px; }
+i.detailtag{ background-position: 0 -960px; width: 20px; height: 12px; }
+i.detailupload_outhor{ background-position: 0 -992px; width: 16px; height: 16px; }
+/*icon----end*/
+.detail .detail_top{
+    margin-top: 20px;
+}
 .detail .detail_top .detail_show{
     float: left;
 }
+.detail .detail_top .detail_show .big i{
+    display: inline-block;
+    position: relative;
+    top: -120px;
+    margin: 0 5px;
+}
 .detail .detail_top .detail_info{
 
+}
+.detail .detail_top .small{
+    margin-left: 45px;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+}
+.detail .detail_top .small dl dd{
+    float: left;
+}
+.detail_top .cut_off{
+    font-size: 14px;
+    color: #666;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    float: left;
+}
+.detail_top .cut_off span{
+    display: inline-block;
+    margin-left: 45px;
+    float: left;
+}
+.detail_top .cut_off p{
+    float: left;
+    height: 1px;
+    background: #ccc;
+    width: 200px;
+    position: relative;
+    top: 16px;
 }
