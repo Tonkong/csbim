@@ -95,6 +95,9 @@ a:hover {
 .orange{
     color: #ff4200;
 }
+.italic{
+    font-style: italic;
+}
 .clear {
     clear: both;
 }
@@ -450,6 +453,7 @@ margin-right: 20px;
 .center1190 {
     width: 1190px;
     margin: 0 auto;
+    position: relative;
 }
 .con926{
     width: 926px;

@@ -66,6 +66,9 @@ float: right;
     line-height: 26px;
     color: #fff;
 }
+.pagination .button:hover{
+background-color: #ff8a00;
+}
 .pagination input.submit{
     width:44px ;
 }
