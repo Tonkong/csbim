@@ -1,12 +1,20 @@
+
 /*右侧蓝*/
 .side_r{
+    margin-left: 10px;
     float: left;
+    /*background: #fff;*/
 }
 .side_r_cy{
     border: 1px solid #ddd;
     width: 244px;
     overflow: hidden;
     margin-bottom: 15px;
+
+}
+.side_r .hot_search{
+    background: #fff;
+
 }
 .side_r_cy dl{
     overflow: hidden;

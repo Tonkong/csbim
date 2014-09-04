@@ -78,7 +78,7 @@ body, textarea, input, button, select, keygen, legend {
 }
 
 body {
-    background: #fff;
+    /*background: #fff;*/
 }
 
 a {
@@ -95,6 +95,12 @@ a:hover {
 .orange{
     color: #ff4200;
 }
+.green{
+color: #91da93;
+}
+.gray{
+    color: #a7a7a6;
+}
 .italic{
     font-style: italic;
 }
@@ -110,7 +116,8 @@ a:hover {
 }
 /*header*/
 .header {
-    width: 100%
+    width: 100%;
+    background: #fff;
 }
 
 .header .top {
@@ -314,7 +321,9 @@ a:hover {
     margin-bottom: 130px;
     width: 100%;
 }
-
+.footer .friendlylink{
+    background: #fff;
+}
 .footer .friendlylink dl {
     border-top: 2px solid #687d90;
     overflow: hidden;
@@ -454,6 +463,7 @@ margin-right: 20px;
     width: 1190px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 10px;
 }
 .con926{
     width: 926px;
@@ -470,6 +480,7 @@ margin-right: 20px;
     line-height: 37px;
     padding-left: 15px;
     position: relative;
+    margin-bottom: 10px;
 }
 .web_map i,.web_map a{
     float: left;
