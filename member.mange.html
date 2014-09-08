@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/member.css"/>
+    <!--<link rel="stylesheet" href="styles/side.right.css"/>-->
+    <link rel="stylesheet" href="styles/products.css"/>
+    <link rel="stylesheet" href="styles/pagination.css"/>
+
+</head>
+<body style="background: #f5f7ec;">
+<iframe src="./public/header.html" allowtransparency="true" width="100%" height="190" scrolling="no" frameborder="0"
+        onload="this.height=this.contentWindow.document.documentElement.scrollHeight"></iframe>
+<div class="main center1190">
+    <div class="web_map">
+        <i></i>
+        <a href="">首页</a>
+        <a href="">> 3D模型</a>
+    </div>
+    <iframe src="./public/member.left.html" height="100%" width="152px" style="float: left;" scrolling="no"
+            frameborder="0" onload="this.height=this.contentWindow.document.documentElement.scrollHeight"></iframe>
+    <div class="content member_con">
+        <div class="member_con_tab">
+            <dl class="tab">
+                <dd class="hover"><span class="hov">▲</span>注册信息</dd>
+                <dd><span class="hov">▲</span>个人简介</dd>
+                <dd><span class="hov">▲</span>修改密码</dd>
+            </dl>
+            <div class="tab_con">
+                <div class="register_info">
+                    <form action="">
+                        <dl>
+                            <dt>修改Email：</dt>
+                            <dd><input type="text"/></dd>
+                            <dd class="orange">未验证</dd>
+                            <dd>
+                                <button class="btn" type="button">发送验证邮件</button>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>修改手机：</dt>
+                            <dd><input type="text"/></dd>
+                            <dd class="orange">未验证</dd>
+                            <dd>
+                                <button class="btn" type="button">50秒后重发</button>
+                            </dd>
+                            <dd><input type="text" class="repeat_in"/></dd>
+                            <dd>
+                                <input class="btn submit" type="button" value="提 交"/>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dd><input class="btn save" type="submit" value="保 存"/></dd>
+                        </dl>
+                    </form>
+                </div>
+                <div class="personal_info" style="display: none;">
+                    <form action="">
+                        <dl>
+                            <dt></dt>
+                            <dd class="member_photo"><img src="images/member_photo.png" alt=""/></dd>
+                        </dl>
+                        <dl class="up_photo">
+                            <dt></dt>
+                            <dd>
+                                <button class="btn">上传照片</button>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>姓名：</dt>
+                            <dd><input type="text"/></dd>
+                        </dl>
+                        <dl><dt>添加个人简介：</dt><dd>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </dd></dl>
+                        <dl>
+                            <dt>支付宝帐号：</dt>
+                            <dd><input type="text"/></dd>
+                        </dl>
+                        <dl><dd><input class="save" type="submit"/></dd></dl>
+                    </form>
+                </div>
+                <div class="personal_secret" style="display: none;">
+                    <form action="">
+                        <dl>
+                            <dt>原密码：</dt>
+                            <dd><input type="text"/></dd>
+                        </dl>
+                        <dl>
+                            <dt>新密码：</dt>
+                            <dd><input type="text"/></dd>
+                        </dl>
+                        <dl>
+                            <dt>确认密码：</dt>
+                            <dd><input type="text"/></dd>
+                        </dl>
+                        <dl>
+                            <dd><input class="save" type="submit" value="保 存"/></dd>
+                        </dl>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe src="./public/member.right.html" allowtransparency="true" height="650" width="256px" scrolling="no" frameborder="0"
+            onload="this.height=this.contentWindow.document.documentElement.scrollHeight"></iframe>
+
+</div>
+<iframe src="./public/footer.html" height="650" allowtransparency="true" width="100%" scrolling="no" frameborder="0"
+        onload="this.height=this.contentWindow.document.documentElement.scrollHeight"></iframe>
+
+</body>
+</html>
