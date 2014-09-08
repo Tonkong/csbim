@@ -1,0 +1,67 @@
+.announcement {
+    border: 1px solid #eee;
+    border-top: none;
+    width: 1108px;
+    margin-top: -18px;
+    padding: 40px;
+}
+.announcement:after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+.announcement h1 {
+    text-align: center;
+    width: 1180px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.announcement dl.info {
+    text-align: center;
+    width: 1180px;
+    color: #999;
+    margin: 10px 0;
+}
+
+.announcement .detail {
+    line-height: 20px;
+}
+
+.announcement .detail p {
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.announcement .list {
+overflow: hidden;
+}
+.announcement .list dl:first-child{
+    border: none;
+}
+.announcement .list dl {
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    float: left;
+    width: 490px;
+    border-left: 1px solid #eee;
+}
+.announcement .list span.orange{
+    padding: 0 5px;
+    font-size: 30px;
+    position: relative;top:5px;
+}
+.about{
+    background: url("../images/about_bg.png") bottom no-repeat;
+    padding-bottom: 220px;
+}
+.about .map{
+    margin-bottom:30px ;
+}
+

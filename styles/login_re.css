@@ -1,0 +1,35 @@
+.login_con{
+    width: 595px;
+    float: left;
+    margin-top: 50px;
+}
+.login_con .banner{
+    float: right;
+}
+.login_right{
+    width: 505px;
+    height: 490px;
+    border:1px solid #eee;
+    background: #fff;
+    margin-left: 40px;
+}
+.login .list dl {
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    float: left;
+    width: 490px;
+    border-left: 1px solid #eee;
+}
+.announcement .list span.orange{
+    padding: 0 5px;
+    font-size: 30px;
+    position: relative;top:5px;
+}
+.about{
+    background: url("../images/about_bg.png") bottom no-repeat;
+    padding-bottom: 220px;
+}
+.about .map{
+    margin-bottom:30px ;
+}

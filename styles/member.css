@@ -1,0 +1,997 @@
+.member_left i, .member_con i, .validate_mail i {
+    background: url("../images/member_icon.png") no-repeat top left;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+
+i.memberadvise_fill {
+    background-position: 0 0;
+    width: 29px;
+    height: 25px;
+}
+
+i.membercancel_rss {
+    background-position: 0 -45px;
+    width: 20px;
+    height: 20px;
+}
+
+i.membercash {
+    background-position: 0 -85px;
+    width: 20px;
+    height: 18px;
+}
+
+i.membercoin {
+    background-position: 0 -123px;
+    width: 11px;
+    height: 14px;
+}
+
+i.memberdownload {
+    background-position: 0 -157px;
+    width: 20px;
+    height: 17px;
+}
+
+i.memberedit {
+    background-position: 0 -194px;
+    width: 19px;
+    height: 19px;
+}
+
+i.memberemail {
+    background-position: 0 -233px;
+    width: 51px;
+    height: 51px;
+    left: 45px;
+    top: 15px;
+}
+
+i.memberentity_model {
+    background-position: 0 -304px;
+    width: 23px;
+    height: 23px;
+    top: 4px;
+
+}
+
+i.memberfavourite {
+    background-position: 0 -347px;
+    width: 21px;
+    height: 23px;
+}
+
+i.memberinfo {
+    background-position: 0 -390px;
+    width: 22px;
+    height: 22px;
+}
+
+i.memberlamp {
+    background-position: 0 -432px;
+    width: 15px;
+    height: 23px;
+    left: 10px;
+    top: 3px;
+}
+
+i.membermanage {
+    background-position: 0 -475px;
+    width: 20px;
+    height: 14px;
+}
+
+i.membermanager {
+    background-position: 0 -509px;
+    width: 15px;
+    height: 19px;
+
+}
+
+i.membermobile {
+    background-position: 0 -548px;
+    width: 51px;
+    height: 51px;
+    left: 45px;
+    top: 15px;
+}
+
+i.membermodel_cate {
+    background-position: 0 -619px;
+    width: 23px;
+    height: 22px;
+    top: 6px;
+
+}
+
+i.membernext {
+    background-position: 0 -661px;
+    width: 16px;
+    height: 28px;
+}
+
+i.memberpic {
+    background-position: 0 -709px;
+    width: 24px;
+    height: 23px;
+}
+
+i.memberprimary_parameters {
+    background-position: 0 -752px;
+    width: 23px;
+    height: 23px;
+    top: 4px;
+
+}
+
+i.memberpromotion {
+    background-position: 0 -795px;
+    width: 18px;
+    height: 17px;
+}
+
+i.memberright {
+    background-position: 0 -832px;
+    width: 54px;
+    height: 54px;
+    left: -80px;
+    top: -20px;
+}
+
+i.memberrss {
+    background-position: 0 -906px;
+    width: 16px;
+    height: 16px;
+}
+
+i.memberselect_cate {
+    background-position: 0 -942px;
+    width: 14px;
+    height: 14px;
+}
+
+i.memberup {
+    background-position: 0 -976px;
+    width: 24px;
+    height: 24px;
+}
+
+i.memberupload {
+    background-position: 0 -1020px;
+    width: 20px;
+    height: 13px;
+}
+
+i.memberv {
+    background-position: 0 -1053px;
+    width: 28px;
+    height: 28px;
+
+}
+
+i.memberwithdraw {
+    background-position: 0 -1101px;
+    width: 51px;
+    height: 51px;
+    left: 45px;
+    top: 15px;
+}
+
+i.memberwrong {
+    background-position: 0 -1172px;
+    width: 54px;
+    height: 54px;
+}
+
+.member_left {
+    font-size: 14px;
+    width: 145px;
+    border: 1px solid #e9e9e8;
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+    min-height: 500px;
+    background: #fff;
+}
+
+.member_left dl dt {
+    background: #f5f5f5;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    border-bottom: 1px solid #e9e9e8;
+    text-align: center;
+    color: #333;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+.member_left dl dd {
+    border-bottom: 1px solid #f0f0f0;
+
+}
+
+.member_left dl dd a {
+    display: block;
+    padding-left: 30px;
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    color: #7b7c79;
+}
+
+.member_left dl dd:last-child {
+    border-bottom: none;
+}
+
+.member_left dl dd a:hover {
+    background: #f5f5f5;
+    color: #ff4200;
+}
+
+.member_con {
+
+}
+
+.member_con .index {
+    width: 765px;
+    float: left;
+    margin-right: 3px;
+    margin-left: 14px;
+}
+
+.member_con .index .top {
+    background: #fbfbfb;
+    border: 1px solid #e9e9e8;
+    width: 763px;
+
+}
+
+.member_con .index .top .primary {
+    background: #fff;
+    margin-top: 10px;
+    padding: 15px;
+    height: 100px;
+
+}
+
+.member_con .index .top .primary dt {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 70px;
+}
+
+.member_con .index .top .primary dt img {
+    margin-right: 15px;
+    float: left;
+}
+
+.member_con .index .top .primary .member_people {
+    position: relative;
+    margin-top: 55px;
+    float: left;
+    line-height: 52px;
+    padding-left: 40px;
+    color: #333;
+    font-size: 16px;
+}
+
+.member_con .index .top .primary dd {
+    height: 100px;
+    position: relative;
+    float: left;
+    width: 135px;
+    text-align: center;
+    line-height: 170px;
+}
+
+.member_con .index .top .info {
+    clear: both;
+    margin-left: 130px;
+    overflow: hidden;
+}
+
+.member_con .index .top .info dd {
+    float: left;
+    width: 150px;
+    text-align: left;
+    margin-left: 50px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.member_con .index .top .info dd a {
+    color: #ff4200;
+
+}
+
+.member_con div.my_products {
+    border: 1px solid #e9e9e8;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-bottom: 5px solid #eaeae8;
+}
+
+.member_con div.my_products h1 {
+    background: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    width: 743px;
+    border-bottom: 1px solid #e9e9e8;
+    padding-left: 20px;
+
+}
+
+.member_con div.my_products > dl {
+    border-bottom: none;
+}
+
+.member_con_tab {
+    overflow: hidden;
+    background: #fff;
+    width: 770px;
+    border: 1px solid #e8e8e6;
+    margin-left: 10px;
+    font-size: 14px;
+    min-height: 600px;
+    padding-bottom: 100px;
+}
+
+.member_con_tab dl.tab {
+    width: 770px;
+    border-bottom: 1px solid #e8e8e6;
+    height: 40px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+
+.member_con_tab dl.tab dd {
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.member_con_tab dl.tab dd span.hov {
+    color: #fff;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    display: none;
+}
+
+.member_con_tab dl.tab dd:first-child {
+    margin-left: 50px;
+}
+
+.member_con_tab dl.tab dd:hover, .member_con_tab dl.tab dd.hover {
+    background: #e3e3e3;
+}
+
+.member_con_tab dl.tab dd:hover span.hov, .member_con_tab dl.tab dd.hover span.hov {
+    display: block;
+}
+
+.member_con_tab .tab_con {
+    overflow: hidden;
+    padding: 50px;
+}
+
+.member_con_tab .tab_con > div {
+    clear: both;
+    color: #515151;
+}
+
+.member_con_tab .tab_con > div:after {
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.member_con_tab .tab_con dl {
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+    clear: both;
+}
+
+.member_con_tab .tab_con dl dd {
+    /*height: 40px;*/
+    line-height: 40px;
+    float: left;
+}
+
+.member_con_tab .tab_con dl dd input {
+    padding: 0;
+    width: 175px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #999;
+    /*padding-left: 10px;*/
+}
+
+.member_con_tab .tab_con dl.rss_01 {
+    margin-left: 210px;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_check dd {
+    width: 280px;
+    text-align: left;
+    float: left;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_check {
+    margin-left: 110px;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_check dd {
+    line-height: 24px;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_fill {
+
+}
+
+.member_con_tab .tab_con dl.cancel_rss_fill dt {
+    padding-left: 40px;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    background: #f9f9f9;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_fill dd textarea {
+    width: 640px;
+    padding: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_fill dd.cancel_rss_btn {
+    float: right;
+}
+
+.member_con_tab .tab_con dl.cancel_rss_fill dd.cancel_rss_btn input.submit {
+    width: 100px;
+    float: right;
+
+}
+
+.member_con_tab .tab_con dl.cancel_rss_check dd input[type=checkbox] {
+    width: auto;
+    height: auto;
+}
+
+.member_con_tab .tab_con dl dd.input_tips {
+    clear: both;
+}
+
+.member_con_tab .tab_con dl dd .repeat_in {
+    width: 80px;
+    margin: 0 15px;
+}
+
+.member_con_tab .tab_con .orange {
+    margin: 0 15px;
+    float: left;
+}
+
+.member_con_tab .tab_con dl dt {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+
+.member_con_tab .tab_con .btn {
+    cursor: pointer;
+    padding: 0 20px;
+    height: 38px;
+    /*line-height: 30px;*/
+    /*border: 1px solid #b3b3b3;*/
+
+}
+
+.member_con_tab .tab_con dl dd input.save, .member_con_tab .tab_con dl dd input.submit {
+    background: #ff4200;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.member_con_tab .tab_con dl dd input.save {
+    margin-left: 220px;
+
+}
+
+.member_con_tab .tab_con dl dd.member_photo {
+    line-height: normal;
+}
+
+.member_con_tab dd.member_photo img {
+    width: 107px;
+    height: 98px;
+}
+
+.member_con_tab textarea {
+    width: 375px;
+    height: 190px;
+}
+
+.member_con_tab .tab_con dl.up_photo {
+    position: relative;
+    margin-top: 10px;
+}
+
+.con_rss {
+    position: relative;
+}
+
+.con_rss_lamp {
+    width: 660px;
+    position: relative;
+    top: -45px;
+    left: 0px;
+    border-bottom: 1px solid orange;
+    line-height: 34px;
+    padding-left: 30px;
+    margin-left: -50px;
+    padding-right: 80px;
+}
+
+.member_con_tab .tab_upload {
+    margin: 0 0 0 5px;
+    padding: 0;
+    float: left;
+}
+
+.member_con_tab .tab_upload .con_upload dl.upload {
+    width: 752px;
+    margin-top: 10px;
+}
+
+.member_con_tab .tab_upload .con_upload dl.upload > dt {
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #ffc454;
+    position: relative;
+    padding-left: 30px;
+    width: 722px;
+}
+
+.member_con_tab .tab_upload .con_upload dl.upload dd.bor {
+    width: 750px;
+    border: 1px solid #f1f1f1;
+}
+
+.con_upload .upload .upload_font {
+    width: 100%;
+}
+
+.member_con .member_con_tab_upload {
+    width: 1025px;
+}
+
+.member_con .member_con_tab dl.tab {
+    width: 1025px;
+}
+
+.member_con .member_con_tab .upload .add_btn {
+    margin-left: 100px;
+}
+
+.member_con .member_con_tab .upload .add_btn dt {
+    width: auto;
+
+}
+
+.member_con .member_con_tab .upload .add_btn dt input {
+    width: auto;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.member_con .member_con_tab .upload .add_title dd input {
+    width: 370px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.member_con .member_con_tab .upload .add_btn dd input {
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.member_con .member_con_tab .upload .add_tips {
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.member_con .member_con_tab .upload .add_tips dd {
+    position: relative;
+    padding-left: 30px;
+}
+
+.member_con .member_con_tab .upload .up_pic_btn {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.member_con .member_con_tab .upload .up_pic_btn dt {
+    text-align: left;
+    width: 800px;
+    height: auto;
+}
+
+.member_con .member_con_tab .upload .up_pic_btn dt input {
+    padding: 0 20px;
+    margin: 0 0;
+    width: auto;
+    margin-right: 20px;
+    float: left;
+}
+
+.member_con .member_con_tab .upload .up_pic_btn dt p {
+    display: inline-block;
+    margin-left: 20px;
+    width: 250px;
+    float: left;
+    line-height: 24px;
+}
+
+.member_con .member_con_tab .upload .up_pic_show {
+    background: #f6f6f6;
+    font-size: 12px;
+    margin: 20px 15px;
+    padding: 0 10px;
+}
+
+.upload dl.up_pic_show dt {
+    position: relative;
+    font-size: 50px;
+    color: #999;
+    top: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.upload .up_pic_show dd {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.upload .up_pic_show dd .up_pic_show_img {
+    padding: 3px;
+    border: 1px solid #eee;
+    display: block;
+}
+
+.upload .up_pic_show dd span {
+    /*display: block;*/
+    line-height: 30px;
+    margin-left: 10px;
+    /*height:auto;*/
+}
+
+.upload .up_pic_show dd input.pic_piece {
+    margin: 0 5px;
+    font-size: 12px;
+    width: 24px;
+    height: auto;
+    line-height: normal;
+    padding: 0;
+}
+
+.upload .up_pic_show dd a {
+    float: right;
+}
+
+.upload .cate_check dt.font {
+    height: auto;
+    line-height: normal;
+    float: left;
+}
+
+.upload .cate_check dd {
+    position: relative;
+}
+
+.upload .cate_check dd i {
+    top: 100px;
+    left: 160px;
+
+}
+
+.upload .cate_check dd select {
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+    height: 250px;
+}
+
+.upload .style {
+    border-bottom: 1px solid #eee;
+    margin-left: 10px;
+    width: 90%;
+    margin-right: 10px;
+}
+
+.upload .style dt {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.upload .style dd a {
+    padding: 0 5px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+
+}
+
+.upload .style dt {
+    margin-left: -10px;
+}
+
+.upload .style dd a:hover, .upload .style dd a.hover {
+    border: 2px solid #ffb11b;
+}
+
+.upload .style textarea {
+    width: 600px;
+    padding: 5px;
+}
+
+.upload .up_save {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.upload .up_save dd {
+    margin-left: 200px;
+}
+
+.upload .up_save .up_save_btn {
+    background: #ff4200;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.member_con_tab_upload .up_right {
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.member_con_tab_upload .up_right .up_right_tem {
+    margin-bottom: 10px;
+}
+
+.member_con_tab_upload .up_right .up_right_tem dl dt {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.up_right .tem_con {
+    padding-top: 5px;
+    border: 1px solid #f2f2f2;
+    border-top: 1px solid #ffc353;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.up_right .tem_con dd {
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0;
+    /*vertical-align: top;*/
+}
+
+.up_right .tem_con dd input[type=radio], .up_right .tem_con dd input[type=checkbox] {
+    position: relative;
+    margin-right: 3px;
+}
+
+.up_right .mo_cate .tem_con dd input[type=radio], .up_right .mo_cate .tem_con dd input[type=checkbox] {
+    float: left;
+}
+
+.up_right .tem_con dd input.money {
+    margin: 0 5px;
+    width: 30px;
+}
+
+.up_right .tem_con dd:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.up_right .primary .tem_con dd {
+    margin-left: 20px;
+}
+
+.up_right .tem_con dd.standard input {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.up_right .entity .tem_con dd input {
+    margin-left: 10px;
+}
+
+.up_right .entity .tem_con dd .save {
+    float: right;
+}
+
+.up_right .tem_con {
+    background: #fcfdf7;
+    padding-bottom: 10px;
+}
+
+.up_right .entity .tem_con {
+    background: #f7f8f0;
+}
+
+.up_right .tem_con dd p.cc {
+    line-height: 20px;
+    width: 210px;
+    float: left;
+    position: relative;
+    top: -2px;
+}
+
+.up_right .tem_con dd input.save {
+    cursor: pointer;
+    height: 38px;
+    line-height: 38px;
+    width: 60px;
+    background: #feb01a;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.up_right .up_right_tem dt {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 30px;
+}
+
+.tab_con .con_cash {
+
+}
+
+.tab_con .con_cash dt, .tab_con .con_cash dd {
+    clear: both;
+
+}
+
+.member_con_tab .tab_con .con_cash .orange {
+    float: none;
+    margin: 3px;
+}
+
+.member_con_tab .tab_con .con_cash .inp .submit {
+    margin-top: 20px;
+    background: #ff4200;
+    width: 80px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.member_con_tab .con_cash_record dl {
+    float: none;
+}
+
+.con_cash_record .submit {
+    margin-left: 20px;
+}
+
+.con_cash_record table {
+    width: 100%;
+    margin-top: 40px;
+    /*float: left;*/
+}
+
+.con_cash_record table thead {
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+}
+
+.con_cash_record table thead td {
+    height: 28px;
+    text-align: center;
+}
+
+.con_cash_record table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.con_cash_record table tbody td {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.validate_mail {
+    font-size: 16px;
+    text-align: left;
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.validate_mail dl{
+    margin-left: 400px;
+}
+.validate_register p{
+    text-align: left;
+}
+.validate_mail dl dt {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.btn_gray {
+    background: #aaa;
+    color: #fff;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.btn_gray:hover {
+    color: #Fff;
+}
+
+.btn_orange {
+    background: orangered;
+    color: #fff;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.btn_orange:hover {
+    color: #fff;
+}
