@@ -726,3 +726,11 @@ background: #efefef;
 .side_r .detail_detail_intro dd span{
 color: #b2b1b1;
 }
+.star_gray{
+    color: #666;
+}
+.star{
+    color: orangered;
+    position: relative;
+    margin-left: 10px;
+}
