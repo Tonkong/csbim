@@ -548,8 +548,11 @@ border: 1px solid #e3e3e3;
     color: #333;
     border-bottom: 3px solid #717171;
     cursor: pointer;
+    border-left: 1px solid #bbb;
 }
-
+.detail_con .detail_con_nav dl dd:first-child{
+    border-left:none;
+}
  .detail_con .nav > dd:hover {
      border-bottom: 3px solid #f2460a;
 
