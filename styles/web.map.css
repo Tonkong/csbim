@@ -21,6 +21,7 @@
     border-bottom: none;
     min-height: 100px;
 }
+
 .map_left{
     position: relative;
     overflow: hidden;
@@ -39,6 +40,14 @@
     padding-left: 20px;
     width: 624px;
 
+}
+.map_left h1 i{
+    background: url("../images/web_maptitleicon.jpg") 0 0 no-repeat;
+    position: absolute;
+    width: 9px;
+    height: 15px;
+    left: 6px;
+    top: 5px;
 }
 .wth825{
     width: 825px;
@@ -115,4 +124,13 @@ width: 825px;
 }
 .map_bottom .map_menu dd a{
     color: #0092db;
+}
+.map_bottom dl.map_fridlylink dd{
+    float: left;
+    margin: 10px 20px 0 0;
+}
+.map_110{
+    /*overflow: hidden;*/
+    margin: 60px 0 20px 0;
+    text-align: center;
 }
