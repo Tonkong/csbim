@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/member.css"/>
+    <style>
+        .D_tips{
+            width: 710px;height: 380px; margin: 0 auto; border: 2px solid #fff;
+            margin-top: 30px;
+            position: relative;
+            z-index: 9;
+            background: #fff;
+        }
+
+        .D_tips_title{
+                width: 100%;
+                background: orangered;
+                height: 34px;
+                line-height: 34px;
+            font-size: 14px;
+            font-weight: bold;
+            position: relative;
+            color: #fff;
+            text-indent: 1em;
+            }
+        .D_tips_closed{
+            position: absolute;
+            right: 20px;
+        }
+
+        .validate_mail {
+            font-size: 16px;
+            text-align: left;
+            width: 1180px;
+            margin: 0 auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .validate_mail dl{
+            margin-left: 210px;
+        }
+        .validate_register p{
+            text-align: left;
+        }
+        .validate_mail dl dt {
+            position: relative;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="D_tips">
+    <div class="D_tips_title">纠错提示<span class="D_tips_closed">x</span></div>
+    <div class="content validate_mail">
+        <dl><dt><i class="memberwrong"></i>您的验证信息已过期,  点此<a href="" style="color: dodgerblue;">重新发送</a>邮件验证</dt>
+        <dd><a class="btn_orange" href="">重新发送</a></dd>
+        </dl>
+    </div>
+</div>
+<div style="position: fixed;z-index: 2;width: 100%; height: 100%; background: #000;opacity: 0.2;top: 0; filter:alpha(opacity=20);"></div>
+</body>
+</html>
