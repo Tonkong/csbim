@@ -814,11 +814,32 @@ i.memberwrong {
 }
 
 .up_right .tem_con dd {
-    font-size: 12px;
+    font-size: 14px;
     color: #999;
     margin: 10px 0;
     /*vertical-align: top;*/
+    position: relative;
+    margin-bottom: 15px;
 }
+.up_right .tem_con dd.font12{
+    font-size: 12px;
+}
+.up_right .mo_cate .tem_con dd label{
+    margin-left: 10px;
+}
+
+.up_right .tem_con dd.jifen i.jifen_icon{
+    background: url("../images/jifen.png") 0 0 no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 21px;
+    width: 26px;
+    height: 19px;
+}
+.up_right .tem_con dd.jifen span{
+    position: relative;
+    left:23px;
+ }
 
 .up_right .tem_con dd input[type=radio], .up_right .tem_con dd input[type=checkbox] {
     position: relative;
@@ -845,16 +866,30 @@ i.memberwrong {
 .up_right .primary .tem_con dd {
     margin-left: 20px;
 }
-
+.up_right .primary dl.tem_con dd{
+    font-size: 12px;
+}
+.up_right .primary dl.tem_con dd.font14{
+    font-size: 14px;
+}
 .up_right .tem_con dd.standard input {
     width: 35px;
     margin-right: 5px;
 }
-
-.up_right .entity .tem_con dd input {
+.up_right .entity .tem_con dd{
     margin-left: 10px;
 }
-
+.up_right .entity .tem_con dd input {
+    margin-left: 10px;
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+}
+.up_right .entity .tem_con dd.standard input {
+    width: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
 .up_right .entity .tem_con dd .save {
     float: right;
 }
